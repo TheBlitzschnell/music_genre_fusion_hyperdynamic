@@ -67,3 +67,6 @@ black_hole_optimizer_broken.py
 # Virtual environment
 venv/
 env/
+
+Music/
+notebooks/

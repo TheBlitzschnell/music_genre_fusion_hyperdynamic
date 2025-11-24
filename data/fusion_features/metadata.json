@@ -1,0 +1,22 @@
+{
+  "feature_dim": 896,
+  "num_train": 699,
+  "num_val": 150,
+  "num_classes": 10,
+  "composition": {
+    "cnn_bigru": "0:256",
+    "dpa_cnn": "256:768",
+    "ecas_cnn": "768:896"
+  },
+  "normalization": {
+    "method": "z-score",
+    "mean_range": [
+      0.0,
+      2.043828248977661
+    ],
+    "std_range": [
+      4.696321411756799e-06,
+      1.0
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": "ACCEPTABLE_WITH_CLEANUP",
+  "checks_passed": "6/7",
+  "active_features": 711,
+  "zero_variance_features": 185,
+  "zero_variance_breakdown": {
+    "cnn_bigru": 6,
+    "dpa_cnn": 173,
+    "ecas_cnn": 6
+  },
+  "normalization": {
+    "train_mean": -3.2481292322472655e-08,
+    "train_std": 1.0
+  },
+  "separability": {
+    "min_distance": 10.578448515747864,
+    "mean_distance": Infinity
+  }
+}

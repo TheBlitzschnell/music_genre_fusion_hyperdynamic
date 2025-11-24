@@ -1,0 +1,19 @@
+{
+  "best_val_acc": 72.0,
+  "best_epoch": 27,
+  "final_val_acc": 72.0,
+  "training_time_minutes": 0.1105364481608073,
+  "total_epochs": 57,
+  "class_accuracies": {
+    "blues": 66.66666666666667,
+    "classical": 86.66666666666667,
+    "country": 60.0,
+    "disco": 60.0,
+    "hiphop": 73.33333333333333,
+    "jazz": 73.33333333333333,
+    "metal": 93.33333333333333,
+    "pop": 80.0,
+    "reggae": 86.66666666666667,
+    "rock": 40.0
+  }
+}

@@ -22,7 +22,7 @@ device = torch.device("mps" if torch.backends.mps.is_available() else "cuda" if 
 
 BASE_DIR = Path.home() / "music_genre_fusion"
 DATA_DIR = BASE_DIR / "data" / "processed" / "melspectrogram_normalized"
-MODEL_DIR = BASE_DIR / "models" / "dpa_cnn"
+MODEL_DIR = BASE_DIR / "models" / "cnn_bigru"
 MODEL_DIR.mkdir(parents=True, exist_ok=True)
 
 BATCH_SIZE = 32

@@ -1,0 +1,60 @@
+{
+  "sample_rate": 22050,
+  "duration": 3,
+  "n_mels": 128,
+  "n_mfcc": 13,
+  "hop_length": 512,
+  "n_fft": 2048,
+  "melspec_dir": "/Users/sina/music_genre_fusion/data/processed/melspectrogram",
+  "mfcc_dir": "/Users/sina/music_genre_fusion/data/processed/mfcc",
+  "genre_to_idx": {
+    "blues": 0,
+    "classical": 1,
+    "country": 2,
+    "disco": 3,
+    "hiphop": 4,
+    "jazz": 5,
+    "metal": 6,
+    "pop": 7,
+    "reggae": 8,
+    "rock": 9
+  },
+  "results": {
+    "train": {
+      "melspec_shape": [
+        699,
+        128,
+        130
+      ],
+      "mfcc_shape": [
+        699,
+        13,
+        130
+      ]
+    },
+    "val": {
+      "melspec_shape": [
+        150,
+        128,
+        130
+      ],
+      "mfcc_shape": [
+        150,
+        13,
+        130
+      ]
+    },
+    "test": {
+      "melspec_shape": [
+        150,
+        128,
+        130
+      ],
+      "mfcc_shape": [
+        150,
+        13,
+        130
+      ]
+    }
+  }
+}

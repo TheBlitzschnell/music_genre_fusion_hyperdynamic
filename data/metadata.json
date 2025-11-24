@@ -1,0 +1,21 @@
+{
+  "genres_dir": "/Users/sina/music_genre_fusion/data/raw/Data/genres_original",
+  "num_genres": 10,
+  "genres": [
+    "blues",
+    "classical",
+    "country",
+    "disco",
+    "hiphop",
+    "jazz",
+    "metal",
+    "pop",
+    "reggae",
+    "rock"
+  ],
+  "splits": {
+    "train": 700,
+    "val": 150,
+    "test": 150
+  }
+}
